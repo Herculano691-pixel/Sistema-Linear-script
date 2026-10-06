@@ -53,4 +53,4 @@ Certifique-se de ter o **Python 3.8 ou superior** instalado em sua máquina.
 - [Pandas](https://pandas.pydata.org/) - Para formatação de tabelas de dados.
 
 ---
-🤖 Desenvolvido com auxílio do Claude Code.
+
