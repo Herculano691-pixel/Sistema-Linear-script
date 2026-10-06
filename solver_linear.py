@@ -82,7 +82,7 @@ with col_a:
         cols = st.columns(n)
         row_values = []
         for j in range(n):
-            val = cols[j].number_input(f"a{i+1},{j+1}", value=0.0, key=f"a_{i}_{j}")
+            val = cols[j].number_input(f"a{i+1},{j+1}", value=0, key=f"a_{i}_{j}")
             row_values.append(val)
         matrix_a_data.append(row_values)
 
@@ -90,7 +90,7 @@ with col_b:
     st.write("**Vetor b**")
     vector_b_data = []
     for i in range(n):
-        val = st.number_input(f"b{i+1}", value=0.0, key=f"b_{i}")
+        val = st.number_input(f"b{i+1}", value=0, key=f"b_{i}")
         vector_b_data.append(val)
 
 A = np.array(matrix_a_data)
