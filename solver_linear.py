@@ -129,4 +129,4 @@ if st.button("Calcular Solução", type="primary"):
         st.warning("Não foi possível encontrar uma solução única para este sistema.")
 
 st.markdown("---")
-st.caption("Desenvolvido por Especialista em Métodos Numéricos | Python & Streamlit")
+st.caption("Desenvolvido por Breno, Lucas e Chrystopher | Python & Streamlit")
